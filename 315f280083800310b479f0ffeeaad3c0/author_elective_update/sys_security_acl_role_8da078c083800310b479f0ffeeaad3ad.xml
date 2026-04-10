@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-30 16:44:49</sys_created_on>
+        <sys_id>8da078c083800310b479f0ffeeaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1791329_smart_0_request.x_1791329_smart_0.admin</sys_name>
+        <sys_package display_value="Smart Employee Service Management" source="x_1791329_smart_0">315f280083800310b479f0ffeeaad3c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Smart Employee Service Management">315f280083800310b479f0ffeeaad3c0</sys_scope>
+        <sys_security_acl display_value="x_1791329_smart_0_request">45a078c083800310b479f0ffeeaad3a8</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_8da078c083800310b479f0ffeeaad3ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-30 16:44:49</sys_updated_on>
+        <sys_user_role display_value="x_1791329_smart_0.admin" name="x_1791329_smart_0.admin">bd5f280083800310b479f0ffeeaad3fb</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Smart Employee Service Management">315f280083800310b479f0ffeeaad3c0</application>
+        <file_path/>
+        <instance_id>28506a493b87ced816e44a8aa4e45a6e</instance_id>
+        <instance_name>dev277542</instance_name>
+        <name>sys_security_acl_role_8da078c083800310b479f0ffeeaad3ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-30 16:44:49</sys_created_on><sys_id>8da078c083800310b479f0ffeeaad3ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1791329_smart_0_request.x_1791329_smart_0.admin</sys_name><sys_package display_value="Smart Employee Service Management" source="x_1791329_smart_0">315f280083800310b479f0ffeeaad3c0</sys_package><sys_policy/><sys_scope display_value="Smart Employee Service Management">315f280083800310b479f0ffeeaad3c0</sys_scope><sys_security_acl display_value="x_1791329_smart_0_request">45a078c083800310b479f0ffeeaad3a8</sys_security_acl><sys_update_name>sys_security_acl_role_8da078c083800310b479f0ffeeaad3ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-30 16:44:49</sys_updated_on><sys_user_role display_value="x_1791329_smart_0.admin" name="x_1791329_smart_0.admin">bd5f280083800310b479f0ffeeaad3fb</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1732213647</payload_hash>
+        <record_name>x_1791329_smart_0_request.x_1791329_smart_0.admin</record_name>
+        <reverted_from/>
+        <source>b95f280083800310b479f0ffeeaad3ee</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-30 16:44:49</sys_created_on>
+        <sys_id>09a078c083800310b479f0ffeeaad3bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d3fa23ac20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-30 16:44:49</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>01a078c07780031045cc8695395548b2</update_guid>
+        <update_guid_history>01a078c07780031045cc8695395548b2:-1732213647</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1791329_smart_0_request.x_1791329_smart_0.admin">efabed5c83000310b479f0ffeeaad365</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-31 15:41:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1d60dd743cbc4da88894dc1fb8d14ce4</sys_id>
+        <sys_metadata>8da078c083800310b479f0ffeeaad3ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1791329_smart_0_request.x_1791329_smart_0.admin</sys_name>
+        <sys_package display_value="Smart Employee Service Management" source="x_1791329_smart_0">315f280083800310b479f0ffeeaad3c0</sys_package>
+        <sys_parent display_value="x_1791329_smart_0_request">45a078c083800310b479f0ffeeaad3a8</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Smart Employee Service Management">315f280083800310b479f0ffeeaad3c0</sys_scope>
+        <sys_scope_delete display_value="">05a1764e406d482480d27a6bd25ccd90</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_8da078c083800310b479f0ffeeaad3ad</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_8da078c083800310b479f0ffeeaad3ad">09a078c083800310b479f0ffeeaad3bf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-31 15:41:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

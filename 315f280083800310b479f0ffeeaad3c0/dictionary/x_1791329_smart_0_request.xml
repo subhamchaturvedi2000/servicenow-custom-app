@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ff90f4c083800310b479f0ffeeaad38d" label="Request" max_length="40" name="x_1791329_smart_0_request" type="collection">
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="5" value="closed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Approved" sequence="3" value="approved"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="2" value="pending_approval"/>
+            </choice>
+        </element>
+        <element choice="1" label="Laptop Type" max_length="40" name="laptop_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Asus" sequence="2" value="Asus"/>
+                <element inactive_on_update="false" label="HP" sequence="1" value="HP"/>
+                <element inactive_on_update="false" label="Dell" sequence="0" value="Dell"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="RAM" max_length="40" name="ram" type="string"/>
+        <element label="Comments" max_length="200" name="comments" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element label="Requested By" max_length="32" name="requested_by" reference="x_1791329_smart_0_employee" type="reference"/>
+        <element label="Request Number" max_length="40" name="request_number" type="string"/>
+        <element choice="1" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Access Request" sequence="4" value="Access Request"/>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="Laptop"/>
+                <element inactive_on_update="false" label="ID Card" sequence="3" value="ID Card"/>
+                <element inactive_on_update="false" label="Leave Request" sequence="2" value="Leave Request"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="Software"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

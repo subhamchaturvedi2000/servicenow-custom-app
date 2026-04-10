@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="16b2340883800310b479f0ffeeaad3db" label="Task" max_length="40" name="x_1791329_smart_0_task" type="collection">
+        <element label="Parent Request" max_length="32" name="parent_request" reference="x_1791329_smart_0_request" type="reference"/>
+        <element label="Assigned to" max_length="40" name="assigned_to" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Task Name" max_length="40" name="task_name" type="string"/>
+        <index name="index">
+            <element name="parent_request"/>
+        </index>
+    </element>
+</database>
